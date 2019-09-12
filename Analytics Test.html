@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title> SiteCat Test </title>
+    </head>
+    <body>
+            <h2>Analytics Implementation Testing</h2>
+            <h3>Author: Avi Muks</h3>
+                <!-- Author: AviMuks -->
+                <img alt="Sample USB Photo" width="1270" height="500"
+                src="https://bcuassets.blob.core.windows.net/img/big-data-analytics-banner-image-131934029945360761.jpg">
+        <p>
+            <!-- Analytics code version: Example AppMeasurment.js for trigerring the s_obj on the sample page. Copyright Adobe Analytics -->
+            <script language="JavaScript" type="text/javascript" src="/Users/Avi/Documents/Xtra Study/SC Analytics Implementation/AppMeasurement_Test_AM.js"></script>
+        </p>
+        <p>
+            <!-- Analytics code version: Example Page Code for tracking custom values on the sample page. Copyright Adobe Analytics -->
+                <script language="JavaScript" type="text/javascript"><!-- /* You may give each page an identifying name, server, and channel on the next lines. */ 
+                s.pageName="AviMuks:AA Implementation:SiteCat Test";
+                s.server="Local Machine";
+                s.channel="Desktop";
+                s.pageType="Sample HTML";
+                s.prop1="AA Implementation Sample Test";
+                /* Conversion Variables */  
+                s.events="Avi has implemented AM file successfully"; 
+                s.products="Adobe Analytics Test" 
+                s.eVar1="AA Implementation Sample Test";
+                var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+        </p>
+        <!-- Analytics code version: Sample s.tl() code. Copyright Adobe Analytics -->
+        <p>
+                 <button onclick="myOnlcikFuntion()">Click Avi</button>
+                 <script>
+                    function myOnlcikFuntion(){
+                        s.linkTrackVars='None';
+                        s.linkTrackEvents='None';
+                        s.tl(this, 'e','Test Link Tracking by Avi');
+                    }
+                </script></p>
+        <p>
+            <button type="button" onclick="alert('Tracking is enabled on the other Button. Good luck & please try again !! ')">Click Avi Again :-)</button></p>
+        
+    </body>
+</html>

@@ -3,5 +3,5 @@
  <p>
  <p> This will also include the implementation of the Adobe AppMeasurment file on this HTML page with the example page code and global configuration given by Adobe.(Copyright Adobe Analytics).
 <p>
-<p> To know more about the implementation details and method. Kindly refer the Adobe website. A Sample link to this method can the following Adobe Docs link: https://preview.tinyurl.com/y3xxacpj
+<p> To know more about the analytics implementation details and method using Adobe Analytics, Kindly refer the Adobe website. A Sample link to this method can the following Adobe Docs link: https://preview.tinyurl.com/y3xxacpj
  

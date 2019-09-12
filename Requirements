@@ -1,9 +1,12 @@
 #Requirements
 
 - HTML editor ~ I have used Visual Studio Code here to edit the HTML page code.
-- Text Editor ~ You can use a text editor like Notepad++ or Sublime Text to modify your code before running them in the browser.
-- Adobe AppMeasurment File Example ~ You can find this from the Adobe Docs portal. https://preview.tinyurl.com/y2rcqejy
+- Text Editor ~ You can use a text editor like Notepad++ or Sublime Text to modify 
+                your code before running them in the browser.
+- Adobe AppMeasurment File Example ~ You can find this from the Adobe Docs portal. 
+                https://preview.tinyurl.com/y2rcqejy
 - Basic HTML knowledge
 - Basic JavaScript knowledge
 - Good understanding of the s.t() & s.tl() server calls
-- Understanding of Visitor ID service for geting a wholistic picture of this analytics implementation and subsequent data collection.
+- Understanding of Visitor ID service for geting a wholistic picture of this analytics 
+                implementation and subsequent data collection.
